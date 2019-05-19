@@ -25,7 +25,7 @@
 	"homepage" : "https://github.com/frogidev/fpdm",
 	"autoload": {
 		"psr-0": {
-			"frogidev\\Fpdm\\": "src/"
+			"Frogidev\\Fpdm\\": "src/"
 		}
 	},
 	"repositories" : [{
