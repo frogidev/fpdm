@@ -1,0 +1,54 @@
+{
+	"name" : "frogidev/fpdm",
+	"description" : "PDF form filling using FPDM Class written by FPDF author Olivier for Laravel 5",
+	"type" : "library",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Olivier Plathey",
+			"email" : "oliver@fpdf.org",
+			"homepage" : "http://www.fpdf.org/",
+			"role" : "Author"
+		}, {
+			"name" : "codeshell",
+			"role" : "Developer",
+			"homepage" : "https://github.com/codeshell/"
+		}, {
+			"name" : "Michael Chen",
+			"role" : "Developer",
+			"homepage" : "https://github.com/shihjay2/"
+		}, {
+			"name" : "Francisco Rojas",
+			"role" : "Developer",
+			"homepage" : "https://github.com/frogidev/"
+		}
+	],
+	"homepage" : "https://github.com/frogidev/fpdm",
+	"autoload": {
+		"psr-0": {
+			"frogidev\\Fpdm\\": "src/"
+		}
+	},
+	"repositories" : [{
+			"type" : "git",
+			"url" : "https://github.com/frogidev/fpdm",
+			"name" : "GitHub"
+		}
+	],
+	"require" : {
+		"php" : ">=5.3.0"
+	},
+	"keywords" : [
+		"FPDM",
+		"PDF",
+		"forms",
+		"fields",
+		"fill",
+		"populate",
+		"FPDF",
+		"Laravel"
+	],
+	"support" : {
+		"issues" : "https://github.com/frogidev/fpdm/issues",
+		"source" : "https://github.com/frogidev/fpdm/tree/master"
+	}
+}
