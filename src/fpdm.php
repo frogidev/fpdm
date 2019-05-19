@@ -42,6 +42,12 @@ $FPDM_REGEXPS = array(
     "/Subtype" => "/^\/Subtype\s+\/(\w+)$/"
 );
 
+require_once('filters/FilterASCII85.php');
+require_once('filters/FilterASCIIHex.php');
+require_once('filters/FilterFlate.php');
+require_once('filters/FilterLZW.php');
+require_once('filters/FilterStandard.php');
+
 $__tmp = version_compare(phpversion(), "5") == -1 ? array('FPDM') : array('FPDM', false);
 if (!call_user_func_array('class_exists', $__tmp)) {
 
