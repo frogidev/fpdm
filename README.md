@@ -20,7 +20,9 @@ Based on version 2.9 (2017-05-11) available from [fpdf.org/en/script/script93.ph
 
 Just run the following line:
 
+```php
 composer require frogidev/fpdm
+```
 
 # Original Info Page
 ## Information

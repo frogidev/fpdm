@@ -1400,19 +1400,19 @@ if (!call_user_func_array('class_exists', $__tmp)) {
 
 			switch($name) {
 				case "LZWDecode":
-					$filter=new FilterLZW();
+					$filter=new \FilterLZW();
 				break;
 				case "ASCIIHexDecode":
-					$filter=new FilterASCIIHex();
+					$filter=new \FilterASCIIHex();
 				break;
 				case "ASCII85Decode":
-					$filter=new FilterASCII85();
+					$filter=new \FilterASCII85();
 				break;
 				case "FlateDecode":
-					$filter=new FilterFlate();
+					$filter=new \FilterFlate();
 				break;
 				case "Standard": //Raw
-					$filter=new FilterStandard();
+					$filter=new \FilterStandard();
 				break;
 				default:
 					$this->Error("getFilter cannot open stream of object because filter '{$name}' is not supported, sorry.");
